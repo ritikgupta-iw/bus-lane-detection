@@ -1,0 +1,23 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+model-file=vehicle.weights
+labelfile-path=labels.txt
+int8-calib-file=yolov5s-int8-calib.table
+num-detected-classes=5
+infer-dims=3;512;512
+workspace-size=2000
+interval=0
+gie-unique-id=1
+process-mode=1
+## 0=FP32, 1=INT8, 2=FP16 mode
+network-mode=0
+cluster-mode=4
+maintain-aspect-ratio=0
+parse-bbox-func-name=NvDsInferParseCustomYoloV5
+engine-create-func-name=BuildCustomYOLOv5sEngine
+custom-lib-path=../../custom_parsers/nvds_customparser_yolov5/libnvds_infercustomparser_yolov5.so
+
+[class-attrs-all]
+pre-cluster-threshold=0.3
