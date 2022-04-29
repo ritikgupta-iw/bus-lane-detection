@@ -1,6 +1,8 @@
 # bus-lane-detection
 
+Bus lanes give priority to buses, cutting down on journey times where roads are congested with other traffic and increasing the reliability of buses. But often, we see unauthorised vehicles utilizing these lanes, as a way to bypass traffic. This project demonstrates that we can use Deepstream and Computer Vision to detect such vehicles in a Video analytics pipeline.
 
+![sample-photo](video/detection.png)
 
 ![Jetson Nano](video/jetson_nano.jpg)
 
