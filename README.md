@@ -2,11 +2,13 @@
 
 Bus lanes give priority to buses, cutting down on journey times where roads are congested with other traffic and increasing the reliability of buses. But often, we see unauthorised vehicles utilizing these lanes, as a way to bypass traffic. This project demonstrates that we can use Deepstream and Computer Vision to detect such vehicles in a Video analytics pipeline.
 
-![sample-photo](video/detection.png
+![sample-photo](video/detection.png)
+
 
 ## Deepstream Setup
 
 ![Jetson Nano](video/jetson_nano.jpg)
+
 
 This post assumes you have a fully functional Jetson device. If not, you can refer the documentation [here](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html).
 
